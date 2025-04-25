@@ -3,8 +3,8 @@
 
 	$gClient = new Google_Client();
 
-	$gClient->setClientId("174055669550-p1idlgdbr01792v2cr6ek4l4om8ok4bu.apps.googleusercontent.com");
-	$gClient->setClientSecret("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");
+	$gClient->setClientId("");
+	$gClient->setClientSecret("");
 
 	$gClient->setRedirectUri('http://localhost/Projeto_etapa3/trackerH/login.php'); // tenho que habilitar no console do google
 
