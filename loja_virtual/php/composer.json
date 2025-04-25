@@ -1,9 +1,0 @@
-{
-    "require": {
-        "google/apiclient": "^2.18",
-        "cosenary/instagram": "^2.3",
-        "nickdnk/graph-sdk": "^7.0",
-        "phpmailer/phpmailer": "^6.9",
-        "stripe/stripe-php": "^17.1"
-    }
-}
