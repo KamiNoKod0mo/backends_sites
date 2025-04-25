@@ -1,0 +1,9 @@
+aside{
+	background-color: #292835;
+	width: 75px;
+	text-align: center;
+}
+.pages a {
+	display: inline-block;
+	width: 100%;
+}
