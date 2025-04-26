@@ -4,6 +4,7 @@ A lightweight backend API for managing and publishing blog posts and news articl
 ## Technologies Used
 - PHP
 - MongoDB
+- JavaScript
 
 
 ## Requirements
