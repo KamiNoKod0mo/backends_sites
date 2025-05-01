@@ -10,9 +10,7 @@
     	$coords[$key] = [$value['longitude'],$value['latitude']];
     	//echo $value['latitude'].','.$value['longitude'];
 
-
     }
     print_r(json_encode($coords));
-
 
 ?>

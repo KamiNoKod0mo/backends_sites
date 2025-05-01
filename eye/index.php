@@ -154,7 +154,7 @@ navigator.geolocation.getCurrentPosition(function(position) {
 	        return coord[0] !== null && coord[1] !== null;  // Usando o parâmetro correto
 	    });
 
-	    var locations = filteredLocations; // ✅ Agora funciona
+	    var locations = filteredLocations; //  Agora funciona
 	    //console.log(typeof(locations));	    
 	    //console.log(locations);
 

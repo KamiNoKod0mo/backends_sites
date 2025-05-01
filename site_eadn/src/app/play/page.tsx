@@ -14,7 +14,7 @@ export default function Aula() {
   const searchParams = useSearchParams(); // Captura os parâmetros de consulta
   const id = searchParams.get("id"); // Extrai o `id` da query
 
-  console.log("ID da URL:", id); // 👀 Depuração
+  console.log("ID da URL:", id); //  Depuração
 
   useEffect(() => {
     if (id) {
@@ -22,7 +22,7 @@ export default function Aula() {
       fetch(`http://localhost:3001/api/curso/${id}`)
         .then(async (res) => {
           const text = await res.text();
-          //console.log("Resposta bruta da API:", text); // 👀 Depuração
+          //console.log("Resposta bruta da API:", text); // Depuração
           try {
             return JSON.parse(text);
           } catch (error) {
